@@ -3,22 +3,22 @@ export const DECREMENT = 'counter/decremented';
 export const UPDATE_DIGIT = 'counter/update_digit';
 
 export const increment = () => {
-	return {
-		type: INCREMENT,
-	};
+  return {
+    type: INCREMENT,
+  };
 };
 
 export const decrement = () => {
-	return {
-		type: DECREMENT,
-	};
+  return {
+    type: DECREMENT,
+  };
 };
 
 export const updateDigit = (digit) => {
-	return {
-		type: UPDATE_DIGIT,
-		payload: {
-			digit: digit,
-		},
-	};
+  return {
+    type: UPDATE_DIGIT,
+    payload: {
+      digit: digit,
+    },
+  };
 };

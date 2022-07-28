@@ -9,13 +9,13 @@ import { store } from './store/store';
 
 function App() {
   return (
-		<Provider store={store}>
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Main />} />
-				</Routes>
-			</BrowserRouter>
-		</Provider>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
