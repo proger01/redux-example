@@ -1,0 +1,14 @@
+.users-block {
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+	height: 500px;
+}
+
+.user-card {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+	margin: 8px;
+}
+

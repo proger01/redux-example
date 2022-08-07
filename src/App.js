@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Main from "./pages/Main";
+import Users from "./pages/Users/Users";
 import { store } from './store/store';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
+					<Route path="/users" element={<Users />} />
         </Routes>
       </BrowserRouter>
     </Provider>
